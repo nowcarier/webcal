@@ -20,5 +20,10 @@ from myapp import views
 urlpatterns = [
     path('', views.index),
     path('admin/', admin.site.urls),
-    path('index/cal', views.cal),
+    path('index/', views.index),
+
+    
+    path('Differentiation/', views.differentiation),
+    path('Integration/', views.integration),
+    path('Rootfinding/', views.rootfinding),
 ]

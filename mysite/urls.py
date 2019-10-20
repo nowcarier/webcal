@@ -19,6 +19,9 @@ from myapp import views
 
 urlpatterns = [
     path('', views.index),
+    path('Differentiation/index/', views.index),
+    path('Integration/index/', views.index),
+    path('Rootfinding/index/', views.index),
     path('admin/', admin.site.urls),
     path('index/', views.index),
 
